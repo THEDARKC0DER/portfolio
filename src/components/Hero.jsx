@@ -65,10 +65,9 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/resume.pdf"
-              target="_blank"
+              href={`${import.meta.env.BASE_URL}Ayush_Agrawal_CV.pdf`}
               rel="noopener noreferrer"
-              download
+              type="application/pdf"
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
             >
               Download Resume

@@ -38,7 +38,7 @@ const Projects = () => {
               {/* <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3> */}
               <a
                 className="mb-2 font-semibold text-2xl text-blue-400 underline"
-                href="https://ticket-booking-isma.onrender.com" 
+                href={project.link}
               >
                 {project.title}
               </a>

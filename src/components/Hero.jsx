@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/ayush.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -30,8 +30,8 @@ const Hero = () => {
               src={profilePic}
               alt="Ayush Agrawal"
               className="border border-stone-900 rounded-3xl"
-              height={650}
-              width={650}
+              height={600}
+              width={600}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
